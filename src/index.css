@@ -21,3 +21,22 @@ a {
   text-decoration: none;
   color: #222;
 }
+
+/* Apply styles to the Swiper's scrollbar */
+.swiper-scrollbar {
+  background-color: rgba(0, 0, 0, 0.2); /* Background of the scrollbar */
+  height: 8px; /* Size of the scrollbar */
+  border-radius: 10px; /* Round corners */
+}
+
+/* Style the scrollbar handle (draggable part) */
+.swiper-scrollbar-drag {
+  background-color: #ff6347; /* Color of the draggable handle */
+  border-radius: 10px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Change the handle color when hovered */
+.swiper-scrollbar-drag:hover {
+  background-color: #ff4500; /* Darker color on hover */
+}

@@ -6,3 +6,10 @@ export interface HeroContents {
   button: string;
   image: string;
 }
+
+export interface ProductType {
+  id: number;
+  title: string;
+  subHeading: string;
+  img: string;
+}

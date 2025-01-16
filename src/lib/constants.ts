@@ -3,6 +3,21 @@ import Second from "../assets/two-bottle-bulb.jpg";
 import Third from "../assets/paste-bottle.jpg";
 import { HeroContents } from "./types";
 
+import FirstProduct from "../assets/first-product.avif";
+import SecondProduct from "../assets/second-product.avif";
+import ThirdProduct from "../assets/third-product.avif";
+import FourthProduct from "../assets/fourth-product.avif";
+import FifthProduct from "../assets/fifth-product.avif";
+import SixthProduct from "../assets/sixth-product.webp";
+import SeventhProduct from "../assets/seventh-product.png";
+
+import SecondFirst from "../assets/second-first.avif";
+import SecondSecond from "../assets/second-second.avif";
+import SecondThird from "../assets/second-third.avif";
+import SecondFourth from "../assets/second-fourth.avif";
+import SecondFifth from "../assets/second-fifth.png";
+import SecondSixth from "../assets/second-sixth.png";
+
 export const heroContents: HeroContents[] = [
   {
     id: 1,
@@ -26,5 +41,89 @@ export const heroContents: HeroContents[] = [
     body: "The Home Necessities Duo, Adventurer Hand Care Trio, Basin Essentials and Hair Care Duo are arranged in a gift box suitable for sending directly to recipients. Available exclusively on aesop.com.",
     button: "Explore bundles",
     image: Third,
+  },
+];
+
+export const productsData = [
+  {
+    id: 1,
+    title: "Brilliant Performers Duo",
+    subHeading: "Synchronised support to refine and replenish the skin",
+    img: FirstProduct,
+  },
+  {
+    id: 2,
+    title: "Lucent Facial Concentrate",
+    subHeading: "A Vitamin C-rich layering serum",
+    img: SecondProduct,
+  },
+  {
+    id: 3,
+    title: "Immaculate Facial Tonic",
+    subHeading: "Exfoliating tonic with light finish",
+    img: ThirdProduct,
+  },
+  {
+    id: 4,
+    title: "B Triple C Facial Balancing Gel",
+    subHeading: "Emracing, vitamin rich hydration",
+    img: FourthProduct,
+  },
+  {
+    id: 5,
+    title: "Exalted Eye Serum",
+    subHeading: "Lightweight, vitamin rich serum",
+    img: FifthProduct,
+  },
+  {
+    id: 6,
+    title: "Perfect Facial Hydrating Cream",
+    subHeading: "Sumptuous, replenishing, matte finish",
+    img: SixthProduct,
+  },
+  {
+    id: 7,
+    title: "Sublime Replenishing Night Masque",
+    subHeading: "Richly nourishing hydration for overnight use",
+    img: SeventhProduct,
+  },
+];
+
+export const secondProductsData = [
+  {
+    id: 1,
+    title: "Reverence Aromatique Hand Wash",
+    subHeading: "A gently exfoliating formulation",
+    img: SecondFirst,
+  },
+  {
+    id: 2,
+    title: "Geranium Leaf Body Scrub",
+    subHeading: "Leaves skin feeling fresh, smooth and soft",
+    img: SecondSecond,
+  },
+  {
+    id: 3,
+    title: "Screen 1",
+    subHeading: "A quartet of staples for the hands, body and home",
+    img: SecondThird,
+  },
+  {
+    id: 4,
+    title: "Virēre Eau de Parfum",
+    subHeading: "Citrus, green, woody",
+    img: SecondFourth,
+  },
+  {
+    id: 5,
+    title: "States of Being: Aromatique Room Spray Trio",
+    subHeading: "An evocative trio for any interior",
+    img: SecondFifth,
+  },
+  {
+    id: 6,
+    title: "Callippus Aromatique Candle",
+    subHeading: "A marriage of deep greens and earthy spices",
+    img: SecondSixth,
   },
 ];
