@@ -18,6 +18,12 @@ import SecondFourth from "../assets/second-fourth.avif";
 import SecondFifth from "../assets/second-fifth.png";
 import SecondSixth from "../assets/second-sixth.png";
 
+import ThirdFirst from "../assets/third-first.png";
+import ThirdSecond from "../assets/third-second.png";
+import ThirdThird from "../assets/third-third.png";
+import ThirdFourth from "../assets/third-fourth.png";
+import ThirdFifth from "../assets/third-fifth.png";
+
 export const heroContents: HeroContents[] = [
   {
     id: 1,
@@ -125,5 +131,59 @@ export const secondProductsData = [
     title: "Callippus Aromatique Candle",
     subHeading: "A marriage of deep greens and earthy spices",
     img: SecondSixth,
+  },
+];
+
+export const seasonalProducts = [
+  {
+    id: 1,
+    title: "Parsley Seed Anti-Oxidant Intense Serum",
+    subHeading: "A hydrating serum to bolster skin",
+    img: ThirdFirst,
+  },
+  {
+    id: 2,
+    title: "Camellia Nut Facial Hydrating Cream",
+    subHeading: "For normal, dry, or sensitive skin",
+    img: ThirdSecond,
+  },
+  {
+    id: 3,
+    title: "Elemental Facial Barrier Cream",
+    subHeading: "For dry and sensitive skin in cold climates",
+    img: ThirdThird,
+  },
+  {
+    id: 4,
+    title: "Fabulous Face Oil",
+    subHeading: "For normal, dull, and congested skin",
+    img: ThirdFourth,
+  },
+  {
+    id: 5,
+    title: "Damascan Rose Facial Treatment",
+    subHeading: "Leaves skin feeling supple, nourished",
+    img: ThirdFifth,
+  },
+];
+
+export const certificationsData = [
+  {
+    id: 1,
+    title: "Certified B Corp",
+    description:
+      "We meet the highest verified standards of social and environmental performance, transparency and accountability.",
+  },
+  {
+    id: 2,
+    title: "Leaping Bunny approved",
+    description:
+      "Our formulations are approved as cruelty free under the Cruelty Free International Leaping Bunny programme.",
+  },
+  {
+    id: 3,
+    title: "PETA recognition",
+    description:
+      "We appear on PETA internationally recognised vegan and cruelty-free lists.",
   },
 ];
